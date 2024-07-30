@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Mono", monospace;
+}
+
+body{
+    background-color: #1b3c67;
+    font-family: "Space Mono", monospace;
+}
+.heading{
+    color: #fff;
+    font-weight: 800;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 70px;
+    font-family: "Space Mono", monospace;
+}
+.container{
+    padding: 20px;
+    width: 560px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .search-box{
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid gray;
+    align-items: center;
+    display: flex;
+}
+.container .search-box i{
+    color: #0e4792;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.container .search-box input{
+    all: unset;
+    height: 50px;
+    width: 340px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 10px;
+    word-spacing: -3px;
+}
+
+.container .user-details{
+    padding: 2px;
+    margin-top: 25px;
+
+}
+.container .user-details .img-box{
+    height: 100px;
+    width: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 100%;
+    float: left;
+}
+.container .user-details .img-box img{
+    height: 100px;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.container .user-details .name{
+    position: relative;
+    left: 13px;
+    color: #fff;
+    margin-top: 7px;
+    font-size: 22px;
+}
+.container .user-details .username{
+    position: relative;
+    left: 13px;
+    color: #3E96f4;
+}
+.container .user-details .join-date{
+    position: relative;
+    left: 13px;
+    font-size: 12px;
+    color: #ccc7bf;
+    margin-top: 10px;
+}
+.container .user-details .bio{
+    position: relative;
+    margin-top: 32px;
+    margin-bottom: 15px; 
+    left: 13px;
+    color: #ccc7bf;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.container .user-profile{
+    padding: 2px;
+    height: 100px;
+    width: 100%;
+    background: #3E96f4;
+}
+.container .user-profile div{
+    
+    height: 100px;
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+.container .user-profile div span{
+    position: relative;
+    top: 14px;
+    font-size: 13px;
+    color: lightgray;
+}
+.container .user-profile div h2{
+   position: relative;
+   top: 13px;
+   font-size: 30px;
+   color: #edeeeb;
+}
+
+
+
+.container .user-other-details{
+    padding: 2px;
+    margin-top: 7px;
+}
+.container .user-other-details p {
+   color: #ccc7bf;
+   margin-top: 8px;
+   font-size: 15px;
+}
+.container .user-other-details p i{
+   color: #3E96f4;
+   font-size: 14px;
+}
+
+
+@media only screen and (max-width: 561px) {
+        .container{
+            width: 360px;
+        }
+        .heading{
+            margin-bottom: 50px;
+            font-size: 30px;
+        }
+  }
