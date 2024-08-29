@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
@@ -8,18 +9,15 @@
 }
 
 body{
-    background-color: #1b3c67;
+    background-color: #121212;
     font-family: "Space Mono", monospace;
 }
-.heading{
-    color: #fff;
-    font-weight: 800;
-    font-size: 35px;
-    text-align: center;
-    margin-top: 70px;
-    font-family: "Space Mono", monospace;
-}
+
+
+
+
 .container{
+    border: 1px solid gray; 
     padding: 20px;
     width: 560px;
     background-color: #1c1c1c;
@@ -159,3 +157,20 @@ body{
             font-size: 30px;
         }
   }
+
+.footer {
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-size: 14px;
+    color: grey;
+}
+
+.footer p {
+    margin: 0;
+    margin-bottom: 3px;
+}

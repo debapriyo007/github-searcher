@@ -17,14 +17,14 @@ let getData = (username)=>{
             
             const location = data.location === "" ||  data.location === null ? "No location" : data.location;
 
-            const website = data.blog === '' ||  data.blog === null ? 'No Website' : data.blog;
+            const website = data.blog === "" ||  data.blog === null ? 'No Website' : data.blog;
 
             const twitter = data.twitter_username === " " ||  data.twitter_username === null ? " Not X" : data.twitter_username;
 
-            const company = data.company === ' ' ||  data.company === null ? ' No Company' : data.company;
+            const company = data.company === "" ||  data.company === null ? ' No Company' : data.company;
 
 
-            const bio = data.bio === ' ' ||  data.bio === null ? 'This profile has no bio' : data.bio;
+            const bio = data.bio === "" ||  data.bio === null ? 'This profile has no bio' : data.bio;
 
             infoBox.innerHTML =`
             <div class="user-details">
@@ -51,11 +51,11 @@ let getData = (username)=>{
                         <span>Following</span>
                     </div>
                 </div>
-                <div class="user-other-details">
-                    <p><i class="fa-solid fa-building">${company}</i></p>
-                    <p><i class="fa-solid fa-location-pin"> ${location}</i></p>
+                <div class="user-other-details"> 
+                    <p><i class="fa-solid fa-building"></i> ${company}</p>
+                    <p><i class="fa-solid fa-location-pin"></i> ${location}</p>
                     <p><i class="fa-solid fa-link"></i> ${website}</p>
-                    <p><i class="fa-brands fa-x-twitter">${twitter}</i></p>
+                    <p><i class="fa-brands fa-x-twitter"></i> ${twitter}</p>
                 </div>
             </div>
             
