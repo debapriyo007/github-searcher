@@ -13,4 +13,4 @@ GitHub Searcher is a tool designed to help users search for repositories, users,
 
 ## 🔗 [**Visit Now**](https://debapriyo007.github.io/github-searcher/)
 
-![Image](https://raw.githubusercontent.com/debapriyo007/github-searcher/main/Demo.png)
+![Image](https://raw.githubusercontent.com/debapriyo007/github-searcher/refs/heads/main/GitHubSearcher-Thumbnail.png)
